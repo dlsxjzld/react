@@ -1,6 +1,7 @@
 import React from "react";
 // import MyComponent from "./MyComponent";
-import Counter from "./Counter";
+// import Counter from "./Counter";
+import Say from "./Say";
 
 const App = () => {
   return (
@@ -9,7 +10,8 @@ const App = () => {
         리액트
       </MyComponent>
        */}
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+      <Say></Say>
     </div>
   );
 };
