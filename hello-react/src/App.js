@@ -1,13 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
+import MyComponent from "./MyComponent";
 
-function App() {
-  const name = "리액트";
-  return (
-    <Fragment>
-      <h1>{name} 안녕!</h1>
-      <h2>잘 작동하니?</h2>
-    </Fragment>
-  );
-}
+const App = () => {
+  return <MyComponent></MyComponent>;
+};
 
 export default App;
