@@ -3,24 +3,40 @@ import React, { Component } from "react";
 class EventPractice extends Component {
   state = {
     message: "",
+    username: "",
   };
-  constructor(props) {
-    super(props);
-    this.handleChange = this.handleChange.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-  }
+  //// 기본 방식
+  // constructor(props) {
+  //   super(props);
+  //   this.handleChange = this.handleChange.bind(this);
+  //   this.handleClick = this.handleClick.bind(this);
+  // }
+  // 메서드 추가할때마다 constructor 수정해야함
+  // handleChange(e) {
+  //   this.setState({
+  //     message: e.target.value,
+  //   });
+  // }
+  // handleClick() {
+  //   this.setState({
+  //     message: "",
+  //   });
+  // }
+  ////
 
-  handleChange(e) {
+  //// property Initialize Syntax 방식
+  handleChange = (e) => {
     this.setState({
       message: e.target.value,
     });
-  }
+  };
 
-  handleClick() {
+  handleClick = () => {
+    alert(this.state.message);
     this.setState({
       message: "",
     });
-  }
+  };
 
   render() {
     return (
