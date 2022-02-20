@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
       {/* <Counter></Counter> */}
-      {/* <button
+      <button
         onClick={() => {
           setVisible(!visible);
         }}
@@ -17,8 +17,8 @@ const App = () => {
         {visible ? "숨기기" : "보이기"}
       </button>
       <hr />
-      {visible && <Info></Info>} */}
-      <Average></Average>
+      {visible && <Info></Info>}
+      {/* <Average></Average> */}
     </div>
   );
 };
