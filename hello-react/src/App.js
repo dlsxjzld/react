@@ -1,8 +1,7 @@
 import React, { Fragment } from "react";
 import "./App.css";
 
-function App() {
-  const name = "리액트";
+const App = () => {
   return (
     <div className="react">
       {/* if문 대신 조건부 연산자 */}
@@ -12,6 +11,6 @@ function App() {
       {name}
     </div>
   );
-}
+};
 
 export default App;
