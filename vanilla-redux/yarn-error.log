@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\sinju\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init -y
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\sinju\bin;C:\Python39\Scripts;C:\Python39;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\WINDOWS\System32\OpenSSH;C:\jdk-11\bin;C:\Program Files\PuTTY;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Python38\Scripts;C:\Python38;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\sinju\AppData\Local\Microsoft\WindowsApps;C:\jdk-11\bin;C:\Users\sinju\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sinju\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\sinju\source\VSCODE\velopert_React\vanilla-redux\package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\sinju\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\sinju\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\sinju\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
