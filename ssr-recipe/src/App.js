@@ -10,6 +10,7 @@ const App = () => {
       <Menu />
       <hr />
       <Routes>
+        <Route path="/"></Route>
         <Route path="/red" element={<RedPage />}></Route>
         <Route path="/blue" element={<BluePage />}></Route>
       </Routes>
